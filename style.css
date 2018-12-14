@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main{
+    width: 913px;
+    height: 960px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
